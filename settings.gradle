@@ -1,0 +1,2 @@
+rootProject.name = 'fittracker'
+include 'user-service', 'training-service', 'progress-service', 'notification-service'
