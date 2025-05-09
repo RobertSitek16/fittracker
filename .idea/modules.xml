@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/training-service/fittracker.training-service.main.iml" filepath="$PROJECT_DIR$/.idea/modules/training-service/fittracker.training-service.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/training-service/fittracker.training-service.test.iml" filepath="$PROJECT_DIR$/.idea/modules/training-service/fittracker.training-service.test.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/user-service/fittracker.user-service.main.iml" filepath="$PROJECT_DIR$/.idea/modules/user-service/fittracker.user-service.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/user-service/fittracker.user-service.test.iml" filepath="$PROJECT_DIR$/.idea/modules/user-service/fittracker.user-service.test.iml" />
     </modules>
   </component>
 </project>
