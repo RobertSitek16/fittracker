@@ -1,10 +1,48 @@
-# Default ignored files
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+/out/
+# IntelliJ specific files
 /shelf/
 /workspace.xml
-# Editor-based HTTP Client requests
 /httpRequests/
-# Environment-dependent path to Maven home directory
-/mavenHomeManager.xml
-# Datasource local storage ignored files
 /dataSources/
 /dataSources.local.xml
+/mavenHomeManager.xml
+
+# Gradle
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+gradle-app.setting
+**/build/
+
+# Logs
+*.log
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Local environment
+.env
+*.local
+
+# Java
+*.class
+
+# JARs and dist files
+*.jar
+*.war
+*.ear
+
+# Test results
+/test-results/
+/test-output/
+
+# Backup files
+*~
+*.bak
+*.swp
+*.tmp
