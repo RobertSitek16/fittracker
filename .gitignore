@@ -1,11 +1,10 @@
 # IntelliJ IDEA
-.idea/
+/.idea/
 *.iml
 *.iws
 /out/
 # IntelliJ specific files
 /shelf/
-/workspace.xml
 /httpRequests/
 /dataSources/
 /dataSources.local.xml
