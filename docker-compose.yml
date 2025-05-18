@@ -13,6 +13,22 @@ services:
     networks:
       - fittracker-net
 
+  user-service:
+    build:
+      context: ./user-service
+    container_name: user-service
+    ports:
+      - "8081:8081"
+    depends_on:
+      - userdb
+    networks:
+      - fittracker-net
+    environment:
+      - SPRING_DATASOURCE_URL=jdbc:postgresql://userdb:5432/userdb
+      - SPRING_DATASOURCE_USERNAME=user
+      - SPRING_DATASOURCE_PASSWORD=password
+      - SPRING_JPA_HIBERNATE_DDL_AUTO=update
+
 networks:
   fittracker-net:
     driver: bridge
